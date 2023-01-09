@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+    <!-- bootsrap cdn link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <!-- header code -->
+  <section class="sub-header">
+    <nav>
+      <a href="#"><img src="./assets/images/logo.png" alt=""></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+      <h1>Our online programs for 2023</h1>
+  </section>
+
+  <!-- ------------BLOG CONTENT---------- -->
+  <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="./assets/images/certificate.jpg" alt="">
+            <h2>Our online programs for 2023</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consequuntur 
+                dolorem libero omnis necessitatibus explicabo repellat cum accusamus, debitis corrupti 
+                soluta quasi alias neque provident recusandae tempore eligendi modi dicta commodi totam 
+                inventore? Voluptates sapiente explicabo suscipit delectus excepturi animi, 
+                eligendi dolorum enim officiis corporis eos! Tenetur, aperiam unde. Obcaecati.
+            </p>
+            <br>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consequuntur 
+                dolorem libero omnis necessitatibus explicabo repellat cum accusamus, debitis corrupti 
+                soluta quasi alias neque provident recusandae tempore eligendi modi dicta commodi totam 
+                inventore? Voluptates sapiente explicabo suscipit delectus excepturi animi, 
+                eligendi dolorum enim officiis corporis eos! Tenetur, aperiam unde. Obcaecati.
+            </p>
+            <br>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consequuntur 
+                dolorem libero omnis necessitatibus explicabo repellat cum accusamus, debitis corrupti 
+                soluta quasi alias neque provident recusandae tempore eligendi modi dicta commodi totam 
+                inventore? Voluptates sapiente explicabo suscipit delectus excepturi animi, 
+                eligendi dolorum enim officiis corporis eos! Tenetur, aperiam unde. Obcaecati.
+            </p>
+            <br>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consequuntur 
+                dolorem libero omnis necessitatibus explicabo repellat cum accusamus, debitis corrupti 
+                soluta quasi alias neque provident recusandae tempore eligendi modi dicta commodi totam 
+                inventore? Voluptates sapiente explicabo suscipit delectus excepturi animi, 
+                eligendi dolorum enim officiis corporis eos! Tenetur, aperiam unde. Obcaecati.
+            </p>
+        </div>
+
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>5</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>8</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>25</span>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+
+    <!-- ------ footer ------ -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus nostrum quis consectetur quam modi. <br>
+         Dolor repudiandae, autem earum sed quam exercitationem doloremque ad?
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+  
+
+  <!-- javascript for toggle menu -->
+  <script>
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+      navLinks.style.right = "0"
+    }
+
+    function hideMenu(){
+      navLinks.style.right = "-200px"
+    }
+  </script>
+</body>
+</html>
